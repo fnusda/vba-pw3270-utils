@@ -1,9 +1,5 @@
 # 🕶️ vba-pw3270-utils // THE HLLAPI INJECTOR
 
-[![Status](https://shields.io)]()
-[![Engine](https://shields.io)]()
-[![Interface](https://shields.io)]()
-[![Target](https://shields.io)]()
 
 > "Forget slow abstraction layers. Bind the core memory strings directly. We are inside the mainframe's veins."
 
