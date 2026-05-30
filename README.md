@@ -34,7 +34,11 @@ Welcome to **vba-pw3270-utils**. This architecture contains customized Excel VBA
    ```
 2. **Access the Subsystem:** Boot Excel ➔ Press `ALT + F11` to deploy the VBA IDE.
 3. **Inject the Class Module:** Right-click the project tree ➔ *Import File* ➔ Choose `clsLibHllapi.cls`.
+   * *Note: This class is based on the original upstream core template by Erick Souza.*
+   * **Upstream Wiki / Git Access:** `git@softwarepublico.gov.br:ericksouza/classe-vba-macro-pw3270.wiki.git`
+   * **Web Portal:** [Software Público Brasileiro - GitLab](http://softwarepublico.gov.br/gitlab/ericksouza/classe-vba-macro-pw3270.wiki.git)
 4. **Target Alignment Check:** If your local machine environment uses the 64-bit/alternative compile path, ensure the `Lib` directives point to `libhllapi.dll` instead of `libhllapi32.dll`.
+
 
 ---
 
@@ -72,5 +76,5 @@ You are communicating directly with underlying system terminal screen buffers. E
 ## 📡 TERMINAL TRANSMISSION
 
 * Architecture designed & adapted from original logic by **Erick Lopes de Souza**
-* Maintained by [@YOUR-GITHUB-HANDLE](https://github.com/fnusda)
+* Maintained by [@fnusda](https://github.com/fnusda)
 * Project Status: Operating Smoothly / Active
